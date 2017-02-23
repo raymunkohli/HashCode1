@@ -11,4 +11,5 @@ package hashcodeee;
  */
 public class dataCentre {
     
+    
 }

@@ -9,6 +9,10 @@ package hashcodeee;
  *
  * @author raymu
  */
-public class Cashe {
+public class Cashe extends Source{
+    int maxsize, currentsize;
+    Cashe(int maxsize,int currentsize){
+        
+    }
     
 }
