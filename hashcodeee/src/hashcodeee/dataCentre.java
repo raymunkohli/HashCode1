@@ -9,6 +9,6 @@ package hashcodeee;
  *
  * @author raymu
  */
-public class dataCentre {
+public class dataCentre extends Source{
     
 }
