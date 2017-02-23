@@ -37,7 +37,7 @@ public class Hashcodeee {
            System.out.println(a[0]);
            int length = Integer.parseInt(a[0]);
            for(int i=0;i!=length;i++){
-               new Videos();
+               new Video();
                
            }           
             
