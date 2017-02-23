@@ -37,8 +37,8 @@ public class Hashcodeee {
            System.out.println(a[0]);
            int length = Integer.parseInt(a[0]);
            for(int i=0;i!=length;i++){
-               new VideoSizes();
-               
+               new Video(/*size of the videos goes here*/);
+               //add videos to video arrayList?
            }           
             
         } catch (Exception e){//Catch exception if any
