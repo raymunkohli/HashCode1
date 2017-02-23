@@ -10,7 +10,6 @@ package hashcodeee;
  * @author bookw
  */
 public abstract class Source {
-    
-    
+      
     
 }

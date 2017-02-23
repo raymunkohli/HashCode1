@@ -9,6 +9,12 @@ package hashcodeee;
  *
  * @author raymu
  */
-public class Cashe {
+public class Cashe extends Source {
+    private int size;
+
+    public Cashe(int size) {//read from the data file; maybe we can creat all the caches in a loop?
+        this.size = size;
+    }
+    
     
 }
