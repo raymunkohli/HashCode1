@@ -13,7 +13,7 @@ public class Video {
     
     int size;
     
-    void videoSize(int size) {
+    VideoSizes(int size) {
         size = this.size;
     }
 
