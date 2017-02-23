@@ -9,7 +9,7 @@ package hashcodeee;
  *
  * @author Robert
  */
-public class Video {
+public class VideoSizes {
     
     int size;
     
