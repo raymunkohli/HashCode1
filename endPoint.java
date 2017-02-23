@@ -9,14 +9,11 @@ package hashcodeproject;
  *
  * @author raymu
  */
-public class Hashcodeproject {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println(123);
+public class endPoint {
+    private int dataToEndPoint;
+    endPoint(int dataToEndPointL){
+        
+        
     }
     
 }
