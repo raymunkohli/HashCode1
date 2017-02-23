@@ -6,7 +6,7 @@
 package hashcodeee;
 
 import java.io.*;
-import static java.lang.String.valueOf;
+import java.util.ArrayList;
 
 /**
  *
@@ -27,23 +27,29 @@ public class Hashcodeee {
             
             String strLine;
             String toppings;
-
+            ArrayList<VideoSizes> sizes = new ArrayList<VideoSizes>();
            /* while((strLine = br.readLine()) != null){
                 String message = strLine;
                 System.out.println(strLine);
             }*/
-           String message = br.readLine();
-           String[] a =  message.split(" ");
+           String topline = br.readLine();
+           String[] a =  topline.split(" ");
+           String secondLine = br.readLine();
+           String[] b = secondLine.split(" ");
            System.out.println(a[0]);
            int length = Integer.parseInt(a[0]);
            for(int i=0;i!=length;i++){
-               new Videos();
-               
+               sizes.add(new VideoSizes(Integer.parseInt(b[i])));
            }           
+           
             
         } catch (Exception e){//Catch exception if any
             System.err.println("Error: " + e.getMessage());
   }
+
+        // make new VideoSizes objects from the sizes in the .txt file
+        
+        
     }
     
 }
