@@ -11,13 +11,14 @@ package hashcodeee;
  */
 public class VideoRequests {
     
-    int videoID, endpointID, numberOfRequests;
+    int videoID, endpointID, numberOfRequests, dataCentreID;
     int latencyFromDC;
     
-    void videoRequests(int a, int b, int c) {
+    void videoRequests(int a, int b, int c, int d) {
         videoID = a;
         endpointID = b;
         numberOfRequests = c;
+        dataCentreID = d;
         //get latency from DC
         //get size
     }
