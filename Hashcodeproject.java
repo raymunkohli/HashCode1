@@ -5,6 +5,10 @@
  */
 package hashcodeproject;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+
 /**
  *
  * @author raymu
@@ -14,9 +18,11 @@ public class Hashcodeproject {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println(123);
-    }
+     
+    
+    
+  
+  
+
     
 }
