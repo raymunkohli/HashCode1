@@ -15,7 +15,7 @@ public class Hashcodeee {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // make new VideoSizes objects from the sizes in the .txt file
     }
     
 }
