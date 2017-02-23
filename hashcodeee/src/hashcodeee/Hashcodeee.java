@@ -35,6 +35,7 @@ public class Hashcodeee {
            String message = br.readLine();
            String[] a =  message.split(" ");
            System.out.println(a[0]);
+           int length;
            for(int i=0;i=! valueOf(a[0]);i++){
                
            }           
