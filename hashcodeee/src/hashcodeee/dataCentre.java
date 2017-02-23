@@ -9,6 +9,38 @@ package hashcodeee;
  *
  * @author raymu
  */
-public class dataCentre {
+public class DataCentre {
+    public static int ID, latencyFromEP, noOfCS;
+    
+    void dataCentre (int a, int b, int c) {
+        ID = a;
+        latencyFromEP = b;
+        noOfCS = c;
+    }
+
+    public static int getID() {
+        return ID;
+    }
+
+    public static void setID(int ID) {
+        DataCentre.ID = ID;
+    }
+
+    public static int getLatencyFromEP() {
+        return latencyFromEP;
+    }
+
+    public static void setLatencyFromEP(int latencyFromEP) {
+        DataCentre.latencyFromEP = latencyFromEP;
+    }
+
+    public static int getNoOfCS() {
+        return noOfCS;
+    }
+
+    public static void setNoOfCS(int noOfCS) {
+        DataCentre.noOfCS = noOfCS;
+    }
+    
     
 }
