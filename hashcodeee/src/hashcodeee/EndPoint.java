@@ -7,8 +7,40 @@ package hashcodeee;
 
 /**
  *
- * @author bookw
+ * @author raymu
  */
-public class EndPoint {
+public class Endpoint {
+    public static int ID, latencyFromEP, noOfCS;
+    
+    void endpoint (int a, int b, int c) {
+        ID = a;
+        latencyFromEP = b;
+        noOfCS = c;
+    }
+
+    public static int getID() {
+        return ID;
+    }
+
+    public static void setID(int ID) {
+        Endpoint.ID = ID;
+    }
+
+    public static int getLatencyFromEP() {
+        return latencyFromEP;
+    }
+
+    public static void setLatencyFromEP(int latencyFromEP) {
+        Endpoint.latencyFromEP = latencyFromEP;
+    }
+
+    public static int getNoOfCS() {
+        return noOfCS;
+    }
+
+    public static void setNoOfCS(int noOfCS) {
+        Endpoint.noOfCS = noOfCS;
+    }
+    
     
 }
