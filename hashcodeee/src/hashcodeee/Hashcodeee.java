@@ -5,6 +5,8 @@
  */
 package hashcodeee;
 
+import java.io.*;
+
 /**
  *
  * @author raymu
@@ -15,7 +17,22 @@ public class Hashcodeee {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        try{
+        FileInputStream fstream = new FileInputStream("data/me_at_the_zoo.in");
+            BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+
+            
+            String strLine;
+            String toppings;
+
+            while((strLine = br.readLine()) != null){
+                String message = strLine;
+                System.out.println(strLine);
+            }
+        } catch (Exception e){//Catch exception if any
+            System.err.println("Error: " + e.getMessage());
+  }
     }
     
 }
