@@ -35,8 +35,9 @@ public class Hashcodeee {
            String message = br.readLine();
            String[] a =  message.split(" ");
            System.out.println(a[0]);
-           int length;
-           for(int i=0;i=! valueOf(a[0]);i++){
+           int length = Integer.parseInt(a[0]);
+           for(int i=0;i!=length;i++){
+               new Videos();
                
            }           
             
