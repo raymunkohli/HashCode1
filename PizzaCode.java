@@ -25,16 +25,23 @@ public class PizzaCode {
     FileInputStream fstream = new FileInputStream("data/medium.in");
     BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
     
+    int a;
+    int b;
+    int c;
+    int d;
     String strLine;
-    String toppings;
+    String pizzaString = "";
+    
     
     while((strLine = br.readLine()) != null){
-        System.out.println(strLine);
-        //toppings = toppings + strLine;
+        //System.out.println(strLine);
+        
+        pizzaString = pizzaString + strLine;
+        System.out.println(pizzaString);
     }
      fstream.close();
      
-            System.out.println(strLine);
+            System.out.println(pizzaString);
     }catch (Exception e){//Catch exception if any
   System.err.println("Error: " + e.getMessage());
   }
